@@ -34,7 +34,7 @@ const menuLink = document.getElementById('menu-link');
           };
           var proto = 
           document.location.protocol, 
-          host = "", 
+          host = "getbutton.io", 
           url = proto + "//static." + host;
 
           var s = document.createElement('script'); 

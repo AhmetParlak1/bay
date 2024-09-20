@@ -1,10 +1,11 @@
+/* */
 const menuLink = document.getElementById('menu-link');
     const toggleBtn = document.getElementById('nav-toggle');
 
     toggleBtn.addEventListener('click', () => {
         menuLink.classList.toggle('active');
     });
-
+/* */
   document.querySelectorAll('.img-showcase').forEach(elem =>{
     let x,y, width, height;
     elem.onmouseenter = () => {
@@ -25,7 +26,7 @@ const menuLink = document.getElementById('menu-link');
   };
 });
 
-
+/* */
 (function selam() {
   var options = {
               whatsapp: "+905415322340",

@@ -889,28 +889,30 @@ footer{
     .dtfi{
         height: 350px;
         padding: 270px var(--padding-inline-section) 5px;
-        margin-inline: auto; 
-        max-width: 1200px;
         overflow: hidden;
-        gap: 60px;
         display: flex;
         justify-content: center;
         align-items: end;
         width: 100%;
+        background-image: url(assets/Hakkımızda.jpg);
     }
     .dtfi h3 {
         font-size: clamp(65px, 8vw, 100px);
         line-height: 60px;
         color: #1E5AC2;
         font-weight: 900;
-        text-align:left;
         font-family: "Montserrat", "Helvetica Neue",;
         display: flex;
         justify-content: end;
-    }
+    }/*
     .dtfi:nth-child(1){
         background-image: url(assets/Hakkımızda.jpg);
-    } 
+    } */
+    .dtfc{
+        background-image: url(assets/Hakkımızda.jpg);
+        width: 100%;
+        height: 350px;
+    }
     .iletişim{
         border: 3px solid #1E5AC2;
         padding: 7px;

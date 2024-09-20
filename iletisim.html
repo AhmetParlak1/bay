@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="shortcut icon" href="assets/bay2.png" type="image/x-icon">
+    <title>Bay Bilisim</title>
+</head>
+<body>
+     <!-- Top Banner -->
+     <div class="top-banner">
+        <div class="container">
+            <div class="banner-text">
+                📣 İletisime geçmeyi unutmayın!
+            </div>
+        </div>
+    </div>
+    <!-- Nav Bar -->
+    <div class="nav-bar">
+        <div class="container nav-bar flex">
+            <a href="Anasayfa.html" class="company-logo ayar flex">
+                <img src="./assets/Bay Bilişim (7).svg" alt="company logo" width="300px">
+            </a>
+            <div class="menu" id="menu-link">
+                <ul class="flex navbar-section">
+                    <li><a href="Hakkimizda.html" class="hover-link">Hakkımızda</a></li>
+                    <li><a href="Hizmetlerimiz.html" class="hover-link">Hizmetlerimiz</a></li>
+                    <li><a href="Musterilerimiz.html" class="hover-link">Müsterilerimiz</a></li>
+                    <li><a href="Magaza.html" class="hover-link">Mağaza</a></li>
+                    <li><a href="Iletisim.html" class="iletişim">İletişim</a></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+                <img src="./assets/asset 43.png" alt="" width="20px">
+            </a>
+        </div>
+        <section class="hak">
+
+            <section class="dtf">
+                <div class="dtfi">
+            <h3>İletişim</h3>
+        </div>
+    </section>
+    <section class="contact container">
+        <div class="content">
+            <h2>İletişime Geçin</h2>
+            <p>Merhaba, ürün ve hizmetlerimiz hakkında bilgi almak ve demo talebinde bulunmak için bize yazın. Uzmanlarımız gün içerisinde size en doğru çözümü sunmak için bilgi aktarsın.</p>
+        </div>
+        <div class="container1">
+            <div class="contactInfo">
+                <div class="box1">
+                    <div class="icon1"><b></b><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+                    <div class="text1">
+                        <h3>Adres</h3>
+                        <p>Cumhuriyet, Kaktüs Sokak. No:18/C, 34290 Küçükçekmece/İstanbul<br></p>
+                    </div>
+                </div>
+                <div class="box1"> 
+                    <div class="icon1"><b></b><i class="fa-solid fa-phone"></i></div>
+                    <div class="text1">
+                        <h3>Telefon</h3>
+                        <p>+90 541 532 23 40<br>+90 543 463 66 20 </p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="icon1"><b></b><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text1">
+                        <h3>E-mail</h3>
+                        <p>baybilişim@gmail.com<br></p>
+                    </div>
+                </div>
+                
+                
+                <h2 class="txt">İletişime geçin</h2>
+                <u1 class="sci">
+                    <!--Linkler Düzenlenecek-->
+                    <li><a href="https://www.facebook.com/yasin.uguducu/?locale=ms_MY"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://x.com/burakckgz_"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/bay.bilisim"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/bay-bili%C5%9Fim-a80615141/?originalSubdomain=tr"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                </u1>
+            </div>
+            <!--JSS VALİDATİON EKLE-->
+            <div class="contactForm">
+                <form>
+                    <h2>Mesaj Gönderin</h2>
+                    <div class="inputBox">
+                        <!--pattern="(^[a-zA-Z]{1,30} [a-zA-Z]{1,30}$)"-->
+                        <input type="text"  placeholder="" required oninvalid="this.setCustomValidity('Adınızı Soyadınızı Girin')" oninput="this.setCustomValidity('')"/>
+                        <span>Adınız Soyadınız</span>
+                    </div>
+                    <div class="inputBox">
+                        <!--required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"-->
+                        <input type="text"  placeholder="" required oninvalid="this.setCustomValidity('E-Postanızı Girin')" oninput="this.setCustomValidity('')" />
+                        <span>E-postanız</span>
+                    </div>
+                    <div class="inputBox">
+                        <!--required pattern=".{10,}"-->
+                        <input type="tel"  placeholder="" required oninvalid="this.setCustomValidity('Telefon Numaranızı Girin')" oninput="this.setCustomValidity('')" />
+                        <span>Telefon Numaranız</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name=""  required placeholder="" oninvalid="this.setCustomValidity('Firma Adınızı Girin')" oninput="this.setCustomValidity('')"/>
+                        <span>Firma Adınız</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required placeholder="" oninvalid="this.setCustomValidity('Mesajınızı Giriniz')" oninput="this.setCustomValidity('')"></textarea>
+                        <span>Mesajınız</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Gönder">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</section>
+    
+    <footer>
+        <div class="container footer-section flex">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d752.7708516358616!2d28.7808149!3d41.0015476!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa38a74de9315%3A0xeee7f3dbb5f3bb80!2zQkFZIELEsEzEsMWexLBN!5e0!3m2!1str!2str!4v1722827862642!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="company-logo">
+                <!--Logo Düzenlenecek-->
+                <img src="./assets/bay.png" alt="company-logo" width="160px">
+            </div>
+            <!--Linkler Eklenecek İsimler Düzenlenecek-->
+            <div class="link-column flex">
+                <h4 class="f-title">Hizmetlerimiz</h4>
+                <a href="" class="hover-link"><li class="icon hover-link">WEBSİTE</li></a>
+                <a href="" class="hover-link"><li class="icon hover-link">SAHİBİNDEN</li></a>
+                <a href="" class="hover-link"><li class="icon hover-link">KAMERA</li></a>
+                <a href="" class="hover-link"><li class="icon hover-link">3LÜPRİZ</li></a>
+                <a href="" class="hover-link"><li class="icon hover-link">LAPTOP</li></a>
+                <a href="" class="hover-link"><li class="icon hover-link">KASA</li></a>
+            </div>
+            <div class="link-column flex">
+                <h4 class="f-title">Bizi Takip Edin!</h4>
+                <!--Linkler Düzenlenecek-->
+                <a href="https://www.facebook.com/yasin.uguducu/?locale=ms_MY" target="_blank">
+                    <img src="Assets/facebook.png" alt="facebook" class="icon"><li class="icon hover-link">Facebook</li>
+                 </a>
+                 <a href="https://x.com/burakckgz_" target="_blank">
+                    <img src="Assets/twitter.png" alt="twitter" class="icon"> <li class="icon hover-link">Twitter</li>
+                 </a>
+                 <a href="https://www.linkedin.com/in/bay-bili%C5%9Fim-a80615141/?originalSubdomain=tr" target="_blank">
+                     <img src="Assets/linkedin.png" alt="linkedin" class="icon"> <li class="icon hover-link">LinkedIn</li>
+                 </a>
+                 <a href="https://www.instagram.com/bay.bilisim" target="_blank">
+                     <img src="Assets/instagram.png" alt="instagram" class="icon"> <li class="icon hover-link">İnstagram</li>
+                 </a>
+                 <a href="https://www.youtube.com/" target="_blank">
+                    <img src="Assets/youtube.png" alt="youtube" class="icon"> <li class="icon hover-link">Youtube</li>
+                 </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sub Footer -->
+    <div class="subfooter top-banner">
+        <div class="subfooter-container flex">
+            <div class="footer-bottom-section subfooter-options flex">
+                <a href="Gizlilik-Sozlesmesi.html">Gizlilik Sözlesmesi</a>
+                <a href="Kisisel-Veriler-Ve-Cerez-Politikasi.html">Kişisel Veriler Ve Çerez Politikası</a>
+                <a href="KVKK-Bilgilendirme-Metni.html">KVKK Bilgilendirme Metni</a>
+            </div>
+            <p class="subfooterr">© Her Hakkı Saklıdır. 2024 BAY Bilişim</p>
+        </div>
+    </div>
+    </div>
+
+    <script src="/Bay Bilisim/sc.js"></script>
+</body>
+</html>

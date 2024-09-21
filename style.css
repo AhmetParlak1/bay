@@ -545,7 +545,6 @@ footer{
 
 .elementor-element{
     background-color: #556773;
-    margin-top: 30px;
     flex-shrink: .1 ;
     align-items: center;
     text-align: center;
@@ -1054,9 +1053,9 @@ footer{
         animation: fade-up 1s;
       }
       .container .box-container{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(301.25px, 1fr));
-        gap: 50px;
+        display: grid;      
+        grid-template-columns: repeat(3,auto); 
+        gap: 15px;
         animation: fade-up 1s;
       }
       .hak{
@@ -1067,18 +1066,17 @@ footer{
         border-radius: 15px;
         background: white;
         text-align: center;
-        padding: 30px 20px;
         border: 2px solid #1E5AC2;
+        margin-bottom: 20px;
       }
       .container .box-container .box img{
-        height: 300px;
-        width: 300px;
+        height: 20vw;
+        width: 18vw;
         object-fit: cover;
-      }
+      } 
       .container .box-container .box h3 {
         color: #1E5AC2;
         font-size: 1.8em;
-        padding: 10px 0;
       }
       .container .box-container .box p {
         color: black;
@@ -1094,6 +1092,7 @@ footer{
         font-size: 17px;
         border-radius: 5px;
         padding: 8px 25px;
+        margin-bottom: 10px;
       }
       .container .box-container .box .btn:hover{
         letter-spacing: 1px;
@@ -1102,17 +1101,35 @@ footer{
       .container .box-container .box:hover{
         box-shadow: 0 10px 15px hsl(218, 43%, 34%);
         transition: .3s;
-      }
+      } */ 
       .container .box-container .box img:hover{
         height: 320px;
         width: 320px;
         transition: .3s;
-      }
-      @media (max-width:1080px){
-        .container .box-container{
-            padding: 20px;
+      } 
+      @media screen and (max-width: 440px){
+        .container .box-container .box img{
+            width: 35vw;
+            height: 35vw;
         }
       }
+      @media screen and (max-width: 1540px){
+        .container .box-container .box img{
+            width: 25vw; 
+            height: 25vw;
+        }
+      }
+      @media screen and (max-width:768px){
+        .container .box-container{
+            grid-template-columns: repeat(2,auto);
+        }
+        .container .box-container .box img{
+            width: 35vw;   
+            height: 35vw;
+        }
+      }
+      
+       
       @keyframes fade-down{
         0%{
             opacity: 0;
@@ -1749,5 +1766,8 @@ footer{
         text-align: center;
         align-items: center;
         justify-content: center;
+    }
+    .ec{
+        margin-top: 30px;
     }
     
